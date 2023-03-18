@@ -87,10 +87,19 @@
     .main-content-grid{
         grid-template-columns: repeat(1, 1fr);
     }
-    .grid-items{
-        width: 95%;
-        margin: 0 auto;
+    /* Main Article Section */
+    .article-grid-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-self: center;
+        grid-gap: 1rem;
+        padding: 2rem 0;
     }
+    .primary-content-items p{
+        font-size: 0.8em;
+        text-align: justify;
+    }
+    
 }
 
 
